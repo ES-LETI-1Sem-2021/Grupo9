@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>ES-LETI-1Sem-2021-Grupo9_2</artifactId>
+    <groupId>pt.iscte.grupo9</groupId>
+    <artifactId>Grupo9</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -29,31 +29,37 @@
             <artifactId>trello4j</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        
         <dependency>
             <groupId>org.kohsuke</groupId>
             <artifactId>github-api</artifactId>
             <version>1.301</version>
         </dependency>
+        
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
             <version>17.0.0.1</version>
         </dependency>
+        
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
             <version>17.0.0.1</version>
         </dependency>
+        
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-web</artifactId>
             <version>17.0.0.1</version>
         </dependency>
+        
         <dependency>
             <groupId>org.controlsfx</groupId>
             <artifactId>controlsfx</artifactId>
             <version>11.1.0</version>
         </dependency>
+        
         <dependency>
             <groupId>com.dlsc.formsfx</groupId>
             <artifactId>formsfx-core</artifactId>
@@ -65,6 +71,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        
         <dependency>
             <groupId>net.synedra</groupId>
             <artifactId>validatorfx</artifactId>
@@ -76,17 +83,20 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
             <version>4.9.3</version>
         </dependency>
+        
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
+        
         <dependency>
             <groupId>org.kordamp.ikonli</groupId>
             <artifactId>ikonli-javafx</artifactId>
@@ -97,29 +107,34 @@
             <artifactId>bootstrapfx-core</artifactId>
             <version>0.4.0</version>
         </dependency>
+        
         <dependency>
             <groupId>eu.hansolo</groupId>
             <artifactId>tilesfx</artifactId>
             <version>17.0.11</version>
         </dependency>
+        
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
+        
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+        
         <dependency>
             <groupId>org.commonjava.googlecode.markdown4j</groupId>
             <artifactId>markdown4j</artifactId>
             <version>2.2-cj-1.1</version>
         </dependency>
     </dependencies>
+    
     <build>
         <plugins>
             <plugin>
@@ -131,6 +146,7 @@
                     <target>16</target>
                 </configuration>
             </plugin>
+            
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
