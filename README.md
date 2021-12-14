@@ -1,5 +1,3 @@
-DEMO
-
 <h2>ES-LETI-1Sem-2021-Grupo9</h2>
 
 <b>Projeto realizado por:</b>
